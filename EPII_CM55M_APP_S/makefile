@@ -134,8 +134,9 @@ CUSTOMER ?= seeed
 # tflm_fd_fm
 # tflm_yolov8_od
 # tflm_yolov8_pose
+# perf_test
 ##
-APP_TYPE = allon_sensor_tflm_freertos
+APP_TYPE = perf_test
 
  
 ### Options above must be added before include options.mk ###

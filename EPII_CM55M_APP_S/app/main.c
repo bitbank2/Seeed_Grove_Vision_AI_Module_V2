@@ -87,6 +87,15 @@ int main(void)
 }
 #endif
 
+#ifdef PERF_TEST
+#include "perf_test.h"
+int main(void)
+{
+	board_init();
+	app_main();
+	return 0;
+}
+#endif // PERF_TEST
 
 #ifdef TFLM_FD_FM
 #include "tflm_fd_fm.h"
